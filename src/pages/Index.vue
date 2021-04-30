@@ -15,6 +15,11 @@
       <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
     </p>
 
+    <button class="button is-primary"><i data-feather="circle"></i>Click me</button>
+
+    <div class="box"><p>Some cool content</p></div>
+    <i data-feather="circle"></i>
+
   </Layout>
 </template>
 
@@ -22,6 +27,10 @@
 export default {
   metaInfo: {
     title: 'Hello, world!'
+  },
+  mounted() {
+    // TODO: Figure out why HMR doesn't run this. Have to refresh the page in browser to pickup icon changes.
+    this.$feather.replace()
   }
 }
 </script>
