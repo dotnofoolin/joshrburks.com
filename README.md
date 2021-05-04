@@ -1,17 +1,13 @@
-# Default starter for Gridsome
+# joshrburks.com
 
-This is the project you get when you run `gridsome create new-project`.
+This is my basic profile page. Build using Gridsome, Bulma, Bulma Timeline, and Feather Icons. Check it out at [https://joshrburks.com](https://joshrburks.com)
 
-### 1. Install Gridsome CLI tool if you don't have
+### Develop
 
-`npm install --global @gridsome/cli`
+1. Ensure Gridsome CLI is installed.
+2. `gridsome develop`
 
-### 2. Create a Gridsome project
+### Deploy
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
-
-### Verify built dist looks good locally
-`ruby -run -e httpd dist -p 8000`
+1. `gridsome build`
+2. Verify it looks good as a static site with `ruby -run -e httpd dist -p 8000`
