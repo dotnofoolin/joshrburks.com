@@ -31,8 +31,6 @@
         </article>
       </div>
     </div>
-
-    
   </Layout>
 </template>
 
