@@ -16,7 +16,7 @@
               <i data-feather="at-sign"></i>
             </p>
             <p class="control">
-              Email: <a href="mailto:joshburks@hey.com" target="_blank">joshburks@hey.com</a>
+              <a href="mailto:joshburks@hey.com" target="_blank">joshburks@hey.com</a>
             </p>
           </div>
           <div class="field is-grouped">
@@ -24,7 +24,7 @@
               <i data-feather="smartphone"></i>
             </p>
             <p class="control">
-              Phone (text/voice): <a href="tel:870-403-2256" target="_blank">870-403-2256</a>
+              <a href="tel:870-403-2256" target="_blank">870-403-2256</a>
             </p>
           </div>
           <div class="field is-grouped">
@@ -32,7 +32,7 @@
               <i data-feather="github"></i>
             </p>
             <p class="control">
-              Github: <a href="https://github.com/dotnofoolin" target="_blank">https://github.com/dotnofoolin</a>
+              <a href="https://github.com/dotnofoolin" target="_blank">https://github.com/dotnofoolin</a>
             </p>
           </div>
           <div class="field is-grouped">
@@ -40,7 +40,7 @@
               <i data-feather="linkedin"></i>
             </p>
             <p class="control">
-              Linked In: <a href="https://www.linkedin.com/in/joshrburks/" target="_blank">https://www.linkedin.com/in/joshrburks/</a>
+              <a href="https://www.linkedin.com/in/joshrburks/" target="_blank">https://www.linkedin.com/in/joshrburks/</a>
             </p>
           </div>
           <div class="field is-grouped">
@@ -48,7 +48,7 @@
               <i data-feather="twitter"></i>
             </p>
             <p class="control">
-              Twitter: <a href="https://twitter.com/joshrburks" target="_blank">https://twitter.com/joshrburks</a>
+              <a href="https://twitter.com/joshrburks" target="_blank">https://twitter.com/joshrburks</a>
             </p>
           </div>
         </div>
