@@ -3,7 +3,7 @@
     <section class="hero is-primary">
       <div class="hero-body">
         <div class="columns">
-          <div class="column is-half">
+          <div class="column is-full">
             <div class="media">
               <div class="media-left">
                 <figure class="image is-96x96">
@@ -16,7 +16,9 @@
               </div>
             </div>
           </div>
-          <div class="column is-half">
+        </div>
+        <div class="columns">
+          <div class="column is-full">
             <nav class="breadcrumb is-pulled-right">
               <ul>
                 <li><g-link to="/">About Me</g-link></li>
@@ -29,6 +31,18 @@
       </div>
     </section>
     <slot/>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <a class="mr-5" href="mailto:joshburks@hey.com" target="_blank"><i data-feather="at-sign"></i></a>
+          <a class="ml-5 mr-5" href="tel:870-403-2256" target="_blank"><i data-feather="smartphone"></i></a>
+          <a class="ml-5 mr-5" href="https://github.com/dotnofoolin" target="_blank"><i data-feather="github"></i></a>
+          <a class="ml-5 mr-5" href="https://www.linkedin.com/in/joshrburks/" target="_blank"><i data-feather="linkedin"></i></a>
+          <a class="ml-5" href="https://twitter.com/joshrburks" target="_blank"><i data-feather="twitter"></i></a>
+        </p>
+      </div>
+    </footer>
   </div>
 </template>
 
