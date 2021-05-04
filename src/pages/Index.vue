@@ -97,6 +97,7 @@
           <ul>
             <li>Ruby</li>
             <li>Ruby on Rails</li>
+            <li>Minitest/Rspec/Fabricator/Faker/VCR/SimpleCov</li>
             <li>Mac OS</li>
             <li>Linux</li>
             <li>Amazon Web Services (AWS)</li>
