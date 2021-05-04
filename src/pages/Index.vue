@@ -92,6 +92,7 @@
         <div class="content">
           <h3>Tech Stack</h3>
           <p>Over the years I've worked with a variety of technologies. From C++ to Perl, to linux shell scripting, to Ruby, Javascript, and whatever comes next.</p>
+          <p>I tend to favor backend work over frontend, and applications over marketing/branding sites.</p>
           <p>Some of my favorites:</p>
           <ul>
             <li>Ruby</li>
@@ -103,6 +104,7 @@
             <li>Vue.js</li>
             <li>PostgreSQL</li>
             <li>Git version control, and the git-flow branching model</li>
+            <li>CSS Frameworks (Bootstrap, Foundation, Bulma)</li>
           </ul>
           <p>Tech I've worked with but don't favor:</p>
           <ul>

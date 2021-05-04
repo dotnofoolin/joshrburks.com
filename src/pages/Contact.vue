@@ -1,6 +1,7 @@
 <template>
   <Layout>
     <p>Contact me</p>
+    <i data-feather="circle"></i>
   </Layout>
 </template>
 
