@@ -20,7 +20,7 @@
             <nav class="breadcrumb is-pulled-right">
               <ul>
                 <li><g-link to="/">About Me</g-link></li>
-                <li><g-link to="/work_with_me">Work With Me</g-link></li>
+                <li><g-link to="/work-with-me">Work With Me</g-link></li>
                 <li><g-link to="/contact">Contact Me</g-link></li>
               </ul>
             </nav>
