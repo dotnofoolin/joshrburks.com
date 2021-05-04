@@ -1,14 +1,33 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
-    </header>
+  <div class="container">
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="columns">
+          <div class="column is-half">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-96x96">
+                  <g-image alt="Headshot" src="~/assets/images/headshot.jpg" class="is-rounded" />
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-3 mt-5">Josh Burks</p>
+                <p class="subtitle is-5">Sr. Software Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-half">
+            <nav class="breadcrumb is-pulled-right">
+              <ul>
+                <li><g-link to="/">About Me</g-link></li>
+                <li><g-link to="/work_with_me">Work With Me</g-link></li>
+                <li><g-link to="/contact">Contact Me</g-link></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
     <slot/>
   </div>
 </template>
@@ -21,30 +40,13 @@ query {
 }
 </static-query>
 
+<script>
+export default {
+  mounted() {
+    this.$feather.replace()
+  }
+}
+</script>
+
 <style>
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-}
-
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
-}
 </style>

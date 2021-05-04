@@ -1,9 +1,6 @@
 <template>
   <Layout>
 
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
     <h1>Hello, world!</h1>
 
     <p>
@@ -26,17 +23,10 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
-  },
-  mounted() {
-    // TODO: Figure out why HMR doesn't run this. Have to refresh the page in browser to pickup icon changes.
-    this.$feather.replace()
+    title: 'About Me'
   }
 }
 </script>
 
 <style>
-.home-links a {
-  margin-right: 1rem;
-}
 </style>
