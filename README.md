@@ -1,5 +1,7 @@
 # joshrburks.com
 
+### NOTE: This repo and site are archived.
+
 This is my basic profile page. Build using Gridsome, Bulma, Bulma Timeline, and Feather Icons. Check it out at [https://joshrburks.com](https://joshrburks.com)
 
 ### Develop
